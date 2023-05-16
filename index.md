@@ -11,6 +11,9 @@ My scientific activity revolves aroud the implementation of computational approa
 Amino Acid substitutions that are consistent with phenotype convergence can indicate that the protein is linked to that phenotype. We call these mutations Convergent Amino Acid Substitutions (CAAS). CAAS can represent an important starting point to reconstruct the genetic background of complex traits. At the moment, we are striving to improve our CAAS detection and validation strategy.
 
 ### CAAStools, a toolbox to identify and test Convergent Amino Acid Substitutions
+
+![CAAStools](assets/img/caastools.jpeg)
+
 In the last years, the lab led by [Arcadi Navarro](https://twitter.com/ArcadiNavarro) @ UPF-Barcelona has developed a strategy to identiy, test and validate CAAS in orthologous protein alignments from different mammalian species. In 2023 we released CAAStools, a toolbox written in Python that allows the user to detect and test CAAS. 
 
 CAAStools is [available in GitHub](https://github.com/linudz/caastools)
@@ -25,10 +28,18 @@ export PATH=$PATH:caastools_folder_path
 Quantitative traits can variate considerably within and between species. Sometimes this variation comes from neutral evolution, sometimes is the consequence of selective pressure.
 
 # Lab Management
-
-
+As a Bioinformatics lab manager in the Navarro's group, I take care of several aspects of the bioinformatics routine in the lab.
 
 # Selected Publications
+A full list of my publications is available in my [Google Scholar](https://scholar.google.com/citations?user=Na2xNecAAAAJ&hl=it).
+
+**CAAStools, a toolbox to identify and test Convergent Amino Acid Substitutions.** ***Barteri et al.,*** **[BiorXIV, 2023](https://www.biorxiv.org/content/10.1101/2022.12.14.520422v2.abstract)**
+
+**Comparative analysis of mammal genomes unveils key genomic variability for human life span.** ***Farré et al.,*** **[Molecular Biology and Evolution, 2021](https://academic.oup.com/mbe/article/38/11/4948/6326808)**
+
+**The Role of Transposable Elements in Congenital Malformations with Notes on Their Potential Implications for Morphological Evolution in Mammals** ***Barteri and Esteve-Altava.,*** **[ Current Molecular Biology Reports, 2023](https://link.springer.com/article/10.1007/s40610-020-00134-z)**
+
+
 # A few personal facts
 
 **I come from Rome** where I was born and raised. I moved to Barcelona in 2015 for my PhD, and I have been living there ever since.
