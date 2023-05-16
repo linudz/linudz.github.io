@@ -37,9 +37,9 @@ A full list of my publications is available in my [Google Scholar](https://schol
 
 **Comparative analysis of mammal genomes unveils key genomic variability for human life span.** ***Farré et al.,*** **[Molecular Biology and Evolution, 2021](https://academic.oup.com/mbe/article/38/11/4948/6326808)**
 
-**The Role of Transposable Elements in Congenital Malformations with Notes on Their Potential Implications for Morphological Evolution in Mammals** ***Barteri and Esteve-Altava,*** **[ Current Molecular Biology Reports, 2023](https://link.springer.com/article/10.1007/s40610-020-00134-z)**
+**The Role of Transposable Elements in Congenital Malformations with Notes on Their Potential Implications for Morphological Evolution in Mammals.** ***Barteri and Esteve-Altava,*** **[ Current Molecular Biology Reports, 2023](https://link.springer.com/article/10.1007/s40610-020-00134-z)**
 
 
-# A few personal facts
+# More about me
 
 **I come from Rome** where I was born and raised. I moved to Barcelona in 2015 for my PhD, and I have been living there ever since.
