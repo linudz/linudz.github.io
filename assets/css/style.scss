@@ -2,3 +2,24 @@
 ---
 
 @import "jekyll-theme-minimal";
+
+body {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+p {
+    color:black;
+}
+
+a:link, a:visited {
+    color: #E0003E ;
+    font-weight:bold;
+}
+
+h1 a:link {
+   color:black; 
+}
+
+h3 {
+    line-height:150%;
+}
