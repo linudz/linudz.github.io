@@ -31,7 +31,7 @@ Quantitative traits can variate considerably within and between species. Sometim
 As a Bioinformatics lab manager in the Navarro's group, I take care of several aspects of the bioinformatics routine in the lab.
 
 # Selected Publications
-A full list of my publications is available in my [Google Scholar](https://scholar.google.com/citations?user=Na2xNecAAAAJ&hl=it).
+A full list of my publications is available in my [Google Scholar](https://scholar.google.com/citations?user=Na2xNecAAAAJ&hl=it). Here I report just a few references that better explain what I am doing at the moment.
 
 **CAAStools, a toolbox to identify and test Convergent Amino Acid Substitutions.** ***Barteri et al.,*** **[BiorXIV, 2023](https://www.biorxiv.org/content/10.1101/2022.12.14.520422v2.abstract)**
 
@@ -39,7 +39,16 @@ A full list of my publications is available in my [Google Scholar](https://schol
 
 **The Role of Transposable Elements in Congenital Malformations with Notes on Their Potential Implications for Morphological Evolution in Mammals.** ***Barteri and Esteve-Altava,*** **[ Current Molecular Biology Reports, 2023](https://link.springer.com/article/10.1007/s40610-020-00134-z)**
 
+# A few more fact about me
 
-# More about me
+**I come from Rome** where I was born (1985) and raised. I moved to Barcelona in 2015 for my PhD, and I have been living there ever since.
 
-**I come from Rome** where I was born and raised. I moved to Barcelona in 2015 for my PhD, and I have been living there ever since.
+The nickname **linudz** comes from "Linus" and it is a reference to [Linus Van Pelt](https://it.wikipedia.org/wiki/Linus_van_Pelt). It has always been my nickname on the internet (even though there are few other "linudz" out there).
+
+I have graduated in **Cell Biology** with a computational thesis on Gut Microbiota. Then I did my PhD in [Evolutionary Plant Genomics](https://www.educacion.gob.es/teseo/imprimirFicheroTesis.do?idFichero=BXYF28m1rvo%3D)
+
+I was on **Mastodon** before it became ***muskstream***. I have my (scientific account)[https://genomic.social/@linus] and a (personal account)[https://mastodon.uno/@linudz] on an Italian instance. You'll find me there.
+
+I have always been an antifascist activist. I participated in several grassroot organizations (mostly libertarian), both in **Rome** and in **Barcelona**. 
+
+I support **AS Roma**, but I use to go to Barcelona's local team [CE Europa](https://en.wikipedia.org/wiki/CE_Europa) games on Sunday. This latter is probably the third most hipster thing I do (after being on Mastodon and having this website).
