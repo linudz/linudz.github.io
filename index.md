@@ -39,13 +39,13 @@ A full list of my publications is available in my [Google Scholar](https://schol
 
 **The Role of Transposable Elements in Congenital Malformations with Notes on Their Potential Implications for Morphological Evolution in Mammals.** ***Barteri and Esteve-Altava,*** **[ Current Molecular Biology Reports, 2023](https://link.springer.com/article/10.1007/s40610-020-00134-z)**
 
-# A few more fact about me
+# A few more facts about me
 
 **I come from Rome** where I was born (1985) and raised. I moved to Barcelona in 2015 for my PhD, and I have been living there ever since.
 
 The nickname **linudz** comes from "Linus" and it is a reference to [Linus Van Pelt](https://it.wikipedia.org/wiki/Linus_van_Pelt). It has always been my nickname on the internet (even though there are few other "linudz" out there).
 
-I have graduated in **Cell Biology** with a computational thesis on Gut Microbiota. Then I did my PhD in [Evolutionary Plant Genomics](https://www.educacion.gob.es/teseo/imprimirFicheroTesis.do?idFichero=BXYF28m1rvo%3D)
+I have graduated in **Cell Biology** with a computational thesis on Gut Microbiota. Then I did my PhD in [Evolutionary Plant Genomics](https://www.educacion.gob.es/teseo/imprimirFicheroTesis.do?idFichero=BXYF28m1rvo%3D) to later move to animal evolution.
 
 I was on **Mastodon** before it became ***muskstream***. I have my (scientific account)[https://genomic.social/@linus] and a (personal account)[https://mastodon.uno/@linudz] on an Italian instance. You'll find me there.
 
