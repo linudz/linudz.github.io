@@ -14,7 +14,7 @@ Amino Acid substitutions that are consistent with phenotype convergence can indi
 
 ![CAAStools](assets/img/caastools.jpeg)
 
-In the last years, the our lab @ UPF-Barcelona has developed a strategy to identiy, test and validate CAAS in orthologous protein alignments from different mammalian species. In 2023 we released CAAStools, a toolbox written in Python that allows the user to detect and test CAAS. 
+In the last years, our lab @ UPF-Barcelona has developed a strategy to identiy, test and validate CAAS in orthologous protein alignments from different mammalian species. In 2023 we released CAAStools, a toolbox written in Python that allows the user to detect and test CAAS. 
 
 CAAStools source code is [available in GitHub](https://github.com/linudz/caastools). Introductory pre-print is [on BioRXiv](https://www.biorxiv.org/content/10.1101/2022.12.14.520422v2).
 
