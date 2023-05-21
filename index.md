@@ -41,7 +41,7 @@ A full list of my publications is available in my [Google Scholar](https://schol
 
 # A few more facts about me
 
-**I come from Rome** where I was born (1985) and raised. I moved to Barcelona in 2015 for my PhD, and I have been living there ever since.
+**I come from Rome** where I was born and raised. I moved to Barcelona in 2015 for my PhD, and I have been living there ever since.
 
 The nickname **linudz** comes from "Linus" and it is a reference to [Linus Van Pelt](https://it.wikipedia.org/wiki/Linus_van_Pelt). It has always been my nickname on the internet (even though there are few other "linudz" out there).
 
