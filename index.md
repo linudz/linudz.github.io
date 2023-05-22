@@ -28,7 +28,7 @@ export PATH=$PATH:caastools_folder_path
 Quantitative traits can variate considerably within and between species. Sometimes this variation comes from neutral evolution, sometimes is the consequence of selective pressure.
 
 # Lab Management
-As a Bioinformatics lab manager in the Navarro's group, I take care of several aspects of the bioinformatics routine in the lab.
+As a Bioinformatics lab manager in the Navarro's group, I take care of several aspects of the bioinformatics routine in the lab, from the HPC accounts to the pipeline creation supervision and bioinformatics training of lab interns.
 
 # Selected Publications
 A full list of my publications is available in my [Google Scholar](https://scholar.google.com/citations?user=Na2xNecAAAAJ&hl=it). Here I report just a few references that better explain what I am doing at the moment.
