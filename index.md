@@ -47,7 +47,7 @@ The nickname **linudz** comes from "Linus" and it is a reference to [Linus Van P
 
 I have graduated in **Cell Biology** with a computational thesis on Gut Microbiota. Then I did my PhD in [Evolutionary Plant Genomics](https://www.educacion.gob.es/teseo/imprimirFicheroTesis.do?idFichero=BXYF28m1rvo%3D) to later move to animal evolution.
 
-I was on **Mastodon** before it became *muskstream*. I have merged my old scientific account and personal account in a (new account on ecoevo)[https://ecoevo.social/linudz]. You'll find me there, even though I still have my [Twitter/X Account](http://twitter.com/fabiobarteri) active.
+I was on **Mastodon** before it became *muskstream*. I have merged my old scientific account and personal account in a [znew account on ecoevo](https://ecoevo.social/linudz). You'll find me there, even though I still have my [Twitter/X Account](http://twitter.com/fabiobarteri) active.
 
 I have always been an antifascist activist. I participated in several grassroot organizations (mostly anarco-socialist), both in **Rome** and in **Barcelona**. 
 
