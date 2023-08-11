@@ -2,7 +2,7 @@
 layout: default
 ---
 
-*Last site update **May 2023***. My name is Fabio Barteri and I am a Computational Biologist at the [Barcelona Beta Brain Research Centre](https://www.barcelonabeta.org/en) and [Universitat Pompeu Fabra](https://www.ibe.upf-csic.es/). I work as a Bioinformatics Lab Manager in the group led by Prof. [Arcadi Navarro](https://twitter.com/ArcadiNavarro).
+*Last site update **August 2023***. My name is Fabio Barteri and I am a Computational Biologist at the [Barcelona Beta Brain Research Centre](https://www.barcelonabeta.org/en) and [Universitat Pompeu Fabra](https://www.ibe.upf-csic.es/). I work as a Bioinformatics Lab Manager in the group led by Prof. [Arcadi Navarro](https://twitter.com/ArcadiNavarro).
 
 # Research interests
 My scientific activity revolves aroud the implementation of computational approaches to infer genome-phenome maps from evolutionary data. 
@@ -47,8 +47,8 @@ The nickname **linudz** comes from "Linus" and it is a reference to [Linus Van P
 
 I have graduated in **Cell Biology** with a computational thesis on Gut Microbiota. Then I did my PhD in [Evolutionary Plant Genomics](https://www.educacion.gob.es/teseo/imprimirFicheroTesis.do?idFichero=BXYF28m1rvo%3D) to later move to animal evolution.
 
-I was on **Mastodon** before it became *muskstream*. I have my [scientific account](https://genomic.social/@linus) and a [personal account](https://mastodon.uno/@linudz) on an Italian instance. You'll find me there.
+I was on **Mastodon** before it became *muskstream*. I have merged my old scientific account and personal account in a (new account on ecoevo)[https://ecoevo.social/linudz]. You'll find me there, even though I still have my [Twitter/X Account](http://twitter.com/fabiobarteri) active.
 
-I have always been an antifascist activist. I participated in several grassroot organizations (mostly libertarian), both in **Rome** and in **Barcelona**. 
+I have always been an antifascist activist. I participated in several grassroot organizations (mostly anarco-socialist), both in **Rome** and in **Barcelona**. 
 
 I support **AS Roma**, but I use to go to Barcelona's local team [CE Europa](https://en.wikipedia.org/wiki/CE_Europa) games on Sunday. This latter is probably the third most hipster thing I do (after being on Mastodon and having this website).
