@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <title>Fabio Barteri – Macroevolutionary Genomics</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Font (opzionale) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" referrerpolicy="no-referrer">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- RECAPTCHA FOR THE CONTACT FORM-->
+<script src="https://unpkg.com/basinjs@latest/dist/basin.min.js"></script>
+<script>
+// Initialize Basin helper and attach reCAPTCHA v3 to the form.
+// BasinJS will automatically add the required hidden token input before submit.
+// The uuid in the form action is already set to '31c50245a9e2'.
+(function(){
+if(typeof basin === 'undefined') return;
+
+try{
+// Attach reCAPTCHA v3 to the form with id 'contact-form'.
+// This tells BasinJS to request a recaptchav3 token when submitting.
+basin.attachCaptcha({
+form: '#contact-form',
+provider: 'recaptchav3',
+// container is optional UI target for any badge/indicator
+container: '#basin-captcha'
+});
+
+// Optional: show a simple success message after submission (Basin posts back with a 200)
+document.getElementById('contact-form').addEventListener('submit', function(e){
+// Let Basin handle the submit. The success message will be shown on a successful response via Basin callbacks if available.
+// For iframe contexts, Basin may post back; this is a lightweight fallback to show a message after a short delay.
+setTimeout(function(){
+var success = document.getElementById('basin-success');
+if(success) success.style.display = 'block';
+}, 500);
+});
+
+}catch(err){
+// Fail silently if Basin helper changes; the form will still post to UseBasin endpoint.
+console.warn('BasinJS init error:', err);
+}
+})();
+</script>
+
+     <!-- END OF RECAPTCHA-->
+</head>
+<body>
+
+<header class="site-header">
+
+    <div class="header-inner">
+
+        <div class="header-left">
+            <div class="header-avatar">
+                <a href="index.html"><img src ="img/profile.picture.png"></a>
+            </div>
+
+            <div class="header-title-group">
+                <div class="header-name"><a href="index.html">Fabio Barteri</a></div>
+                <div class="header-subtitle"><a href="index.html">Post-doc in Macroevolutionary Genomics</a></div>
+            </div>
+        </div>
+
+        <button class="nav-toggle" aria-label="Apri il menu">☰</button>
+
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="research.html">Research</a></li>
+            <li><a href="software.html">Software</a></li>
+            <li><a href="substack.html">Substack</a></li>
+            <li><a href="fabio.html">Fabio</a></li>
+            <li><a href="contacts.html">Contacts</a></li>
+        </ul>
+
+    </div>
+
+</header>
+
+<main class="page-wrapper">
+
+    <!-- TEMPLATE: 2-col layout (sinistra grande + destra piccola) -->
+    <section class="sections-grid">
+
+        <!-- Colonna principale (sinistra) -->
+        <article class="card card-large">
+            <h2 class="card-title">Let's keep in touch</h2>
+            <p>Write me an email though this form. I will reply ASAP.</p>
+
+<div class="basin-form-container">
+<form id="contact-form" class="basin-form" method="POST" action="https://usebasin.com/f/31c50245a9e2">
+<div class="form-row">
+<label for="name">Name</label>
+<input id="name" name="name" type="text" placeholder="Your full name" required>
+</div>
+
+<div class="form-row">
+<label for="email">Email address</label>
+<input id="email" name="email" type="email" placeholder="you@example.com" required>
+<div class="hint">I will only use this to reply.</div>
+</div>
+
+<div class="form-row">
+<label for="message">Message</label>
+<textarea id="message" name="message" placeholder="Write your message here..." required></textarea>
+</div>
+
+<!-- Basin will wire up reCAPTCHA v3 for you via basin.js -->
+<div class="basin-captcha-wrap" id="basin-captcha"></div>
+
+<button type="submit">Send Message</button>
+
+<div id="basin-success" class="basin-success-message">Thanks! Your message has been sent.</div>
+</form>
+</div>
+        </article>
+
+        <!-- Sidebar (destra) -->
+        <article class="card card-side">
+            <h2 class="card-title">Other Social links</h2>
+                <div class="social-icons">
+            <!-- Mail -->
+            <a href="mailto:fabio.barteri@upf.edu" aria-label="Email">
+                <i class="fas fa-envelope"></i>
+            </a>
+
+            <!-- GitHub -->
+            <a href="https://github.com/linudz" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                <i class="fab fa-github"></i>
+            </a>
+
+            <!-- Bluesky -->
+            <a href="https://bsky.app/profile/linudz.bsky.social" target="_blank" rel="noopener noreferrer" aria-label="Bluesky">
+                <i class="fa-brands fa-bluesky"></i>
+            </a>
+
+            <!-- Mastodon -->
+            <a href="https://ecoevo.social/@linudz" target="_blank" rel="me noopener noreferrer" aria-label="Mastodon">
+                <i class="fa-brands fa-mastodon"></i>
+            </a>
+
+            <!-- ResearchGate -->
+            <a href="https://www.researchgate.net/profile/Fabio-Barteri" target="_blank" rel="noopener noreferrer" aria-label="ResearchGate">
+                <i class="fab fa-researchgate"></i>
+            </a>
+
+            <!-- Google Scholar -->
+
+            <a href="https://scholar.google.com/citations?user=Na2xNecAAAAJ&hl=it" target="_blank" rel="noopener noreferrer" aria-label="Google Scholar">
+                <i class="fa-solid fa-graduation-cap"></i>
+            </a>
+
+            </div>
+        
+        <h3>Address</h3>
+        <p>
+            Dr. <strong>Fabio Barteri</strong><br>Parc de la Recerca Biomedica de Barcelona, 7th Floor (UPF-IBE). Carrer Dr. Aiguader 88E, 00083, Barcelona (Spain)
+        </p>
+
+        </article>
+
+    </section>
+
+</main>
+
+<!-- ✅ FOOTER fuori dal main, così resta full-width -->
+<footer class="site-footer">
+    <div class="footer-inner">
+
+        <div class="footer-brand">
+            <div class="footer-avatar">
+                <img src="img/profile.picture.png" alt="Fabio Barteri">
+            </div>
+
+            <div class="footer-title-group">
+                <div class="footer-name">Fabio Barteri</div>
+                <div class="footer-tagline">Postdoc in macroevolutionary and comparative genomics</div>
+            </div>
+        </div>
+                <div class="social-icons">
+            <!-- Mail -->
+            <a href="mailto:fabio.barteri@upf.edu" aria-label="Email">
+                <i class="fas fa-envelope"></i>
+            </a>
+
+            <!-- GitHub -->
+            <a href="https://github.com/linudz" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                <i class="fab fa-github"></i>
+            </a>
+
+            <!-- Bluesky -->
+            <a href="https://bsky.app/profile/linudz.bsky.social" target="_blank" rel="noopener noreferrer" aria-label="Bluesky">
+                <i class="fa-brands fa-bluesky"></i>
+            </a>
+
+            <!-- Mastodon -->
+            <a href="https://ecoevo.social/@linudz" target="_blank" rel="me noopener noreferrer" aria-label="Mastodon">
+                <i class="fa-brands fa-mastodon"></i>
+            </a>
+
+            <!-- ResearchGate -->
+            <a href="https://www.researchgate.net/profile/Fabio-Barteri" target="_blank" rel="noopener noreferrer" aria-label="ResearchGate">
+                <i class="fab fa-researchgate"></i>
+            </a>
+
+            <!-- Google Scholar -->
+
+            <a href="https://scholar.google.com/citations?user=Na2xNecAAAAJ&hl=it" target="_blank" rel="noopener noreferrer" aria-label="Google Scholar">
+                <i class="fa-solid fa-graduation-cap"></i>
+            </a>
+
+            </div>
+
+
+    </div>
+
+    <div class="footer-bottom">
+        <div class="footer-bottom-inner">
+            <span>© 2026 Fabio Barteri. All rights reserved. Some rights reversed.</span>
+            <a class="back-to-top" href="#">Back to top ↑</a>
+        </div>
+    </div>
+
+    
+</footer>
+
+<script>
+    const navToggle = document.querySelector(".nav-toggle");
+    const navLinks = document.querySelector(".nav-links");
+
+    navToggle.addEventListener("click", () => {
+        navLinks.classList.toggle("nav-open");
+    });
+</script>
+
+</body>
+</html>

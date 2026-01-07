@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <title>Fabio Barteri – Macroevolutionary Genomics</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Font (opzionale) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" referrerpolicy="no-referrer">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+
+    <div class="header-inner">
+
+        <div class="header-left">
+            <div class="header-avatar">
+                <a href="index.html"><img src ="img/profile.picture.png"></a>
+            </div>
+
+            <div class="header-title-group">
+                <div class="header-name"><a href="index.html">Fabio Barteri</a></div>
+                <div class="header-subtitle"><a href="index.html">Post-doc in Macroevolutionary Genomics</a></div>
+            </div>
+        </div>
+
+        <button class="nav-toggle" aria-label="Apri il menu">☰</button>
+
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="research.html">Research</a></li>
+            <li><a href="software.html">Software</a></li>
+            <li><a href="substack.html">Substack</a></li>
+            <li><a href="fabio.html">Fabio</a></li>
+            <li><a href="contacts.html">Contacts</a></li>
+        </ul>
+
+    </div>
+
+</header>
+
+<main class="page-wrapper">
+
+    <!-- TEMPLATE: 2-col layout (sinistra grande + destra piccola) -->
+    <section class="sections-grid">
+
+        <!-- Colonna principale (sinistra) -->
+        <article class="card card-large">
+            <h2 class="card-title">Software and Resources</h2>
+
+            <!-- CAAStools-->
+            <h3>CAAStools, a toolbox to identify and test <strong>convergent amino acid substitutions</strong></h3>
+            <p>
+                <a href="http://github.com/linudz/caastools" target="_blank" rel="noopener noreferrer"><strong>CAAStools</strong></a>
+                is a lightweight suite of <strong>Python</strong> tools to identify and validate
+                <strong>Convergent Amino Acid Substitutions (CAAS)</strong> by scanning
+                <strong>multiple sequence alignments (MSA)</strong> of orthologous proteins (or translated nucleotides) and testing whether
+                species with <strong>divergent trait values</strong> converge to different amino acids.
+                It is designed to scale CAAS discovery to <strong>proteome-wide</strong> analyses, and includes modules to
+                <strong>detect CAAS</strong> in a single MSA, <strong>resample phenotype groups</strong> (random, phylogeny-restricted, or
+                <strong>Brownian-motion</strong> based), and run <strong>bootstrap validation</strong> to estimate empirical support for candidate sites.
+            </p>
+            <p class="selected-publication">
+            <strong>Fabio Barteri</strong>, Alejandro Valenzuela, Xavier Farré, David de Juan, Gerard Muntané, Borja Esteve-Altava, and Arcadi Navarro.
+            <strong>2023</strong>. “<strong>CAAStools: A Toolbox to Identify and Test Convergent Amino Acid Substitutions</strong>.”
+            <em>Bioinformatics</em> 39 (10): btad623.
+            <a href="https://doi.org/10.1093/bioinformatics/btad623" target="_blank" rel="noopener noreferrer">https://doi.org/10.1093/bioinformatics/btad623</a>.
+            </p>
+
+            <p>
+            <a href="http://github.com/linudz/caastools" target="_blank" rel="noopener noreferrer">⬇️ <strong>Download from GitHub</strong></a>
+            </p>
+        </article>
+
+        <!-- Sidebar (destra) -->
+        <article class="card card-side">
+            <h2 class="card-title">Quick links</h2>
+            <img src="img/caastools.logo.png" style="width:60%; height:auto; margin-bottom:20px;" />
+            <img src="img/pga.logo.png" style="width:60%; height:auto; margin-bottom:20px;" />
+
+        </article>
+
+    </section>
+
+</main>
+
+<!-- ✅ FOOTER fuori dal main, così resta full-width -->
+<footer class="site-footer">
+    <div class="footer-inner">
+
+        <div class="footer-brand">
+            <div class="footer-avatar">
+                <img src="img/profile.picture.png" alt="Fabio Barteri">
+            </div>
+
+            <div class="footer-title-group">
+                <div class="footer-name">Fabio Barteri</div>
+                <div class="footer-tagline">Postdoc in macroevolutionary and comparative genomics</div>
+            </div>
+        </div>
+                <div class="social-icons">
+            <!-- Mail -->
+            <a href="mailto:fabio.barteri@upf.edu" aria-label="Email">
+                <i class="fas fa-envelope"></i>
+            </a>
+
+            <!-- GitHub -->
+            <a href="https://github.com/linudz" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                <i class="fab fa-github"></i>
+            </a>
+
+            <!-- Bluesky -->
+            <a href="https://bsky.app/profile/linudz.bsky.social" target="_blank" rel="noopener noreferrer" aria-label="Bluesky">
+                <i class="fa-brands fa-bluesky"></i>
+            </a>
+
+            <!-- Mastodon -->
+            <a href="https://ecoevo.social/@linudz" target="_blank" rel="me noopener noreferrer" aria-label="Mastodon">
+                <i class="fa-brands fa-mastodon"></i>
+            </a>
+
+            <!-- ResearchGate -->
+            <a href="https://www.researchgate.net/profile/Fabio-Barteri" target="_blank" rel="noopener noreferrer" aria-label="ResearchGate">
+                <i class="fab fa-researchgate"></i>
+            </a>
+
+            <!-- Google Scholar -->
+
+            <a href="https://scholar.google.com/citations?user=Na2xNecAAAAJ&hl=it" target="_blank" rel="noopener noreferrer" aria-label="Google Scholar">
+                <i class="fa-solid fa-graduation-cap"></i>
+            </a>
+
+            </div>
+
+
+    </div>
+
+    <div class="footer-bottom">
+        <div class="footer-bottom-inner">
+            <span>© 2026 Fabio Barteri. All rights reserved. Some rights reversed.</span>
+            <a class="back-to-top" href="#">Back to top ↑</a>
+        </div>
+    </div>
+
+    
+</footer>
+
+<script>
+    const navToggle = document.querySelector(".nav-toggle");
+    const navLinks = document.querySelector(".nav-links");
+
+    navToggle.addEventListener("click", () => {
+        navLinks.classList.toggle("nav-open");
+    });
+</script>
+
+</body>
+</html>

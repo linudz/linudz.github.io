@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <title>Fabio Barteri – Macroevolutionary Genomics</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Font (opzionale) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+
+    <div class="header-inner">
+
+        <div class="header-left">
+            <div class="header-avatar">
+                <a href="index.htm"><img src ="img/profile.picture.png"></a>
+            </div>
+
+            <div class="header-title-group">
+                <div class="header-name">Fabio Barteri</div>
+                <div class="header-subtitle">Post-doc in Macroevolutionary Genomics</div>
+            </div>
+        </div>
+
+        <button class="nav-toggle" aria-label="Apri il menu">☰</button>
+
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="research.html">Research</a></li>
+            <li><a href="software.html">Software</a></li>
+            <li><a href="substack.html">Substack</a></li>
+            <li><a href="fabio.html">Fabio</a></li>
+            <li><a href="contacts.html">Contacts</a></li>
+        </ul>
+
+    </div>
+
+</header>
+
+<main class="page-wrapper">
+
+    <!-- TEMPLATE: 2-col layout (sinistra grande + destra piccola) -->
+    <section class="sections-grid">
+
+        <!-- Colonna principale (sinistra) -->
+        <article class="card card-large">
+            <h2 class="card-title">Page title</h2>
+            <p>Contenuto principale della pagina…</p>
+
+            <!-- Esempio contenuti -->
+            <h3>Section</h3>
+            <p>
+                Testo, immagini, liste, ecc.
+            </p>
+
+            <!-- <img src="img/your.image.png" style="width:100%; height:auto;" /> -->
+        </article>
+
+        <!-- Sidebar (destra) -->
+        <article class="card card-side">
+            <h2 class="card-title">Sidebar</h2>
+            <p>Contenuti secondari: link, badge, contatti rapidi, box, ecc.</p>
+
+            <!-- Esempio: link rapidi -->
+            <h3>Quick links</h3>
+            <p>
+                <a href="index.htm">← Home</a><br>
+                <a href="software.htm">Software</a><br>
+                <a href="https://brownian.substack.com/" target="_blank" rel="noopener noreferrer">Substack</a>
+            </p>
+        </article>
+
+    </section>
+
+    <footer class="site-footer">
+        <div class="footer-inner">
+
+            <!-- Left: brand -->
+            <div class="footer-brand">
+                <div class="footer-avatar">
+                    <img src="img/profile.picture.png" alt="Fabio Barteri">
+                </div>
+
+                <div class="footer-title-group">
+                    <div class="footer-name">Fabio Barteri</div>
+                    <div class="footer-tagline">Macroevolutionary Genomics · Comparative Genomics</div>
+                </div>
+            </div>
+
+            <!-- Middle: quick links -->
+            <nav class="footer-nav" aria-label="Footer navigation">
+                <a href="#research">Research</a>
+                <a href="software.htm">Software</a>
+                <a href="https://brownian.substack.com/" target="_blank" rel="noopener noreferrer">Substack</a>
+                <a href="#contacts">Contacts</a>
+            </nav>
+
+            <!-- Right: contact -->
+            <div class="footer-contact">
+                <a class="footer-link" href="mailto:your@email.com">your@email.com</a>
+                <span class="footer-sep">·</span>
+                <a class="footer-link" href="http://github.com/linudz" target="_blank" rel="noopener noreferrer">GitHub</a>
+                <span class="footer-sep">·</span>
+                <a class="footer-link" href="#" target="_blank" rel="noopener noreferrer">Google Scholar</a>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            <div class="footer-bottom-inner">
+                <span>© 2026 Fabio Barteri. All rights reserved.</span>
+                <a class="back-to-top" href="#">Back to top ↑</a>
+            </div>
+        </div>
+    </footer>
+
+</main>
+
+<script>
+    const navToggle = document.querySelector(".nav-toggle");
+    const navLinks = document.querySelector(".nav-links");
+
+    navToggle.addEventListener("click", () => {
+        navLinks.classList.toggle("nav-open");
+    });
+</script>
+
+</body>
+</html>
