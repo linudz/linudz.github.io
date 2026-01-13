@@ -58,16 +58,57 @@
 
         <!-- Colonna principale (sinistra) -->
         <article class="card card-large">
-            <h2 class="card-title">From valine to violence</h2>
-            <p>Contenuto principale della pagina…</p>
-
-            <!-- Esempio contenuti -->
-            <h3>Convergent Amino Acid Substitutions (CAAS) to unveil the genetic background of complex traits.</h3>
+            <h2 class="card-title">Research interests</h2>
+            <figure class="image-figure">
+                <div class="image-wrap">
+                    <img class="zoomable" src="img/website.home.001.jpeg" data-full="img/website.home.001.jpeg" alt="Website hero" style="width:100%; height:auto;" />
+                    <div class="image-overlay">
+                        <div class="overlay-badge"><i class="fa-solid fa-expand"></i>&nbsp;Zoom</div>
+                    </div>
+                </div>
+                <figcaption class="image-caption">
+                    <strong>Slide 1. </strong><em>Research Overview</em>
+                </figcaption>
+            </figure>
+            <h3>From phenotypes to evolutionary models (Slide 1A)</h3>
             <p>
-                Testo, immagini, liste, ecc.
+                As illustrated in <strong>Slide 1A</strong>, my research begins with biologically meaningful questions at the organismal level. I identify traits of biomedical relevance in primates and other mammals through systematic literature mining and external collaborations providing curated phenotypic data. I then characterize species-wide trait variability and place it within an explicit phylogenetic framework, allowing the formulation and testing of evolutionary models that describe how these traits have changed over deep evolutionary time.
             </p>
 
-            <!-- <img src="img/your.image.png" style="width:100%; height:auto;" /> -->
+            <h3>Species-wide trait variation in a phylogenetic context (Slide 1A)</h3>
+            <p>
+                In <strong>Slide 1A</strong>, trait values are mapped across the phylogeny to highlight lineage-specific shifts, gradual evolutionary trends, and potential cases of phenotypic convergence. Integrating phenotypic measurements with phylogenetic information enables the testing of macroevolutionary hypotheses and the evaluation of alternative evolutionary scenarios. This step provides the statistical and conceptual foundation required before moving to genome-level analyses.
+            </p>
+
+            <h3>Genotype–phenotype mapping through comparative genomics (Slide 1B)</h3>
+            <p>
+                The genotype–phenotype mapping phase is shown in <strong>Slide 1B</strong>. Here, I apply comparative genomic approaches to identify molecular signatures associated with phenotypic variation. An illustrative example is the analysis of Convergent Amino Acid Substitutions (CAAS), which links recurrent amino acid changes across independent lineages to convergent phenotypic outcomes. CAAS represents one component of a broader analytical toolbox that also includes relative evolutionary rate shifts (RER), dN/dS–based tests of selection, analyses of evolutionary accelerations or decelerations, and investigations of non-coding and intergenic genomic regions.
+            </p>
+
+            <h3>From candidate genomic signals to biological interpretation (Slide 1B)</h3>
+            <p>
+                As summarized in <strong>Slide 1B</strong>, these comparative analyses typically yield a prioritized set of genes, pathways, or genomic regions whose evolutionary patterns are consistent with observed phenotypic differences. These candidates are further explored through follow-up analyses, cross-trait comparisons, and functional annotation, with the goal of moving from statistical association toward biologically interpretable hypotheses about mechanisms, constraints, and evolutionary trade-offs.
+            </p>
+
+            <h3>Future research directions (Slide 1C)</h3>
+            <p>
+                The integrative framework outlined in <strong>Slide 1</strong> converges into three main research directions that define the current and future scope of my work. These directions balance biological applications, methodological development, and conceptual advances in genome–phenome integration.
+            </p>
+
+            <h4>Aging and cancer in mammals and primates</h4>
+            <p>
+                As highlighted in <strong>Slide 1C</strong>, a primary research direction focuses on the comparative study of aging and cancer susceptibility across mammals and primates. By leveraging natural variation in lifespan, life-history traits, and disease risk, I use evolutionary and comparative genomics approaches to investigate the genetic basis of longevity and age-related pathologies, with the aim of identifying evolutionary signatures relevant to both fundamental biology and biomedical research.
+            </p>
+
+            <h4>Algorithm design and bioinformatics software development</h4>
+            <p>
+                A second core direction, illustrated in <strong>Slide 1C</strong>, is the design and implementation of algorithms and bioinformatics software that link genetic variation to phenotypic diversity at macroevolutionary scale. This includes developing robust statistical methods, scalable computational workflows, and reusable tools that formalize comparative logic across many traits and species.
+            </p>
+
+            <h4>Molecular phenotypes in a genome–phenome framework</h4>
+            <p>
+                The third direction, also shown in <strong>Slide 1C</strong>, centers on the explicit incorporation of molecular phenotypes into comparative analyses. I am structuring my future research around a genome–phenome macroevolutionary framework in which molecular-level features—such as transposable element content, genomic coverage, or other genome-wide readouts—are treated as phenotypes in their own right. These intermediate layers provide a mechanistic bridge between sequence evolution and complex organismal traits, enabling a more integrative understanding of evolutionary and biomedical processes.
+            </p>
         </article>
 
         <!-- Sidebar (destra) -->
@@ -156,6 +197,11 @@
     navToggle.addEventListener("click", () => {
         navLinks.classList.toggle("nav-open");
     });
+</script>
+
+<script src="./js/image-model.js"></script>
+<script>
+    initImageModal();
 </script>
 
 </body>
